@@ -1,0 +1,73 @@
+{
+    "questions": [
+        {
+            "id": "name-123",
+            "type": "text",
+            "question": "What's your name?",
+            "validation": {
+                "type": "length",
+                "min": 3
+            }
+        },
+        {
+            "id": "experience-345",
+            "type": "text",
+            "question": "What's your programming experiece?",
+            "validation": {
+                "type": "length",
+                "min": 5
+            }
+        },
+        {
+            "id": "comfortable-56465",
+            "type": "number",
+            "question": "How comfortable are you with JavaScript?",
+            "max": 10
+        },
+        {
+            "id": "fav-tech-4464456",
+            "type": "select",
+            "question": "What is your favourite technology?",
+            "options": [
+                "ES6",
+                "TypeScript",
+                "CSS",
+                "HTML5",
+                "Node.js",
+                "WebComponents"
+            ]
+        },
+        {
+            "id": "tech-34252",
+            "type": "multi",
+            "question": "Which technologies do you know?",
+            "options": [
+                "ES6",
+                "TypeScript",
+                "CSS",
+                "HTML5",
+                "Node.js",
+                "WebComponents"
+            ],
+            "validation": {
+                "type": "options",
+                "required": [
+                    "ES6"
+                ]
+            }
+        },
+        {
+            "id": "learn-34252",
+            "type": "multi",
+            "question": "Which technologies would you like to learn?",
+            "options": [
+                "ES6",
+                "TypeScript",
+                "React",
+                "HTML5",
+                "Node.js",
+                "WebComponents"
+            ]
+        }
+    ]
+}
